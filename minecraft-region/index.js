@@ -1,6 +1,8 @@
-var dataview = require('jdataview');
+// IMPORTS
+const dataview = require('jdataview');
 const nbt = require('nbt');
 
+// Check if is in Node or in Browser
 if (process.browser) var Zlib = require('./zlib-inflate.min').Zlib
 else var Zlib = require('./zlibjs-node')
 
