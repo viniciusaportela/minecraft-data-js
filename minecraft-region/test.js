@@ -1,7 +1,7 @@
 const mcRegion = require('./');
 const fs = require('fs');
 const joinPath = require('path').join;
-const mcaData = fs.readFileSync(joinPath(__dirname, './samples/r.0.0.mca'), 'binary');
+const mcaData = fs.readFileSync(joinPath(__dirname, './samples/r.0.0_2.mca'), 'binary');
 
 let region = mcRegion(mcaData);
 
