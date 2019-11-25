@@ -7,7 +7,7 @@ jDataView@~1.1.0:
   resolved "https://registry.yarnpkg.com/jDataView/-/jDataView-1.1.0.tgz#febdf9b60bf5697b12d890cbdd6f4ada984d362b"
   integrity sha1-/r35tgv1aXsS2JDL3W9K2phNNis=
 
-jdataview@^2.5.0:
+jdataview@2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/jdataview/-/jdataview-2.5.0.tgz#3081b3fea651f9317ec6bd4feb2ddc98aa41d595"
   integrity sha1-MIGz/qZR+TF+xr1P6y3cmKpB1ZU=
@@ -40,3 +40,8 @@ nbt-js@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/nbt-js/-/nbt-js-0.1.0.tgz#92866fc47d885739db56db6f1c587061826bc018"
   integrity sha1-koZvxH2IVznbVttvHFhwYYJrwBg=
+
+nbt@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/nbt/-/nbt-0.8.1.tgz#4f1d8ba9ced6ab5fdead82524a1c24932cf9c22e"
+  integrity sha512-jUNuLo/SM8vA7uW3pudnXgCOqd2187Vw9jSeyByKJCyGfxW9VIglKcSlBn8pfb/eS95Suv7eyDxvWGSNOK0dMw==

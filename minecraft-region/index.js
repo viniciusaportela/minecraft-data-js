@@ -1,5 +1,8 @@
 var dataview = require('jDataView');
 var NBTReader = require('minecraft-nbt').NBTReader;
+
+const nbt = require('nbt');
+
 var chunk = require('minecraft-chunk');
 if (process.browser) var Zlib = require('./zlib-inflate.min').Zlib
 else var Zlib = require('./zlibjs-node')
@@ -68,8 +71,17 @@ Region.prototype.getChunk = function(x, z) {
     }
     if (process.browser) retvalbytes = new Zlib.Inflate(data).decompress()
     else retvalbytes = Zlib.inflateSync(data)
-    nbtReader = new NBTReader(retvalbytes)
-    retval = nbtReader.read()
+
+    //console.log(retvalbytes);
+
+    nbt.parse(retvalbytes, function(error, data) {
+      if (error) { throw error; }
+      console.log(data.value.Level);
+    });
+
+    /*nbtReader = new NBTReader(retvalbytes)
+    retval = nbtReader.read()*/
+
     return retval
   }
 };

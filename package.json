@@ -1,0 +1,9 @@
+{
+  "name": "minecraft-data-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vinicius-portela/minecraft-data-js",
+  "author": "vinicius-portela <vinicius.portela.stm@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}

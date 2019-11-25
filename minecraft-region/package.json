@@ -13,6 +13,7 @@
     "mca-js": "^0.1.1",
     "minecraft-chunk": "0.3.0",
     "minecraft-nbt": "0.0.2",
+    "nbt": "^0.8.1",
     "nbt-js": "^0.1.0"
   }
 }

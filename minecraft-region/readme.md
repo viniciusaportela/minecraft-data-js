@@ -1,5 +1,8 @@
 # minecraft-region
 
+> ⚠️ Warning: This repository was adapted from https://github.com/maxogden/minecraft-region
+> To be used for the most recent minecraft versions
+
 parses chunks out of a minecraft region file
 
 extracted from code originally written by @ithkuil for [mcchunkloader](https://github.com/ithkuil/mcchunkloader), turned into a module and now maintained by @maxogden
