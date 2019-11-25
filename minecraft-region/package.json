@@ -1,0 +1,18 @@
+{
+  "name": "minecraft-region",
+  "version": "0.3.1",
+  "description": "parses chunks out of a minecraft region file",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": "",
+  "author": "Jason Livesay <ithkuil@gmail.com>, Max Ogden <max@maxogden.com>",
+  "license": "BSD",
+  "dependencies": {
+    "jdataview": "2.5.0",
+    "mca-js": "^0.1.1",
+    "minecraft-chunk": "0.3.0",
+    "minecraft-nbt": "0.0.2",
+    "nbt-js": "^0.1.0"
+  }
+}
